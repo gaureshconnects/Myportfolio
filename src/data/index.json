@@ -1,0 +1,201 @@
+{
+  "certifications": [
+    {
+      "id": "1",
+      "title": "Java",
+      "description": "IIT Bombay Spoken Tutorial, 2022",
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+      "link": "https://drive.google.com/file/d/1bu15r_L9PoPDDGl1PRRFXiptFDk0zjqK/view?usp=sharing"
+    },
+    {
+      "id": "2",
+      "title": "JavaScript",
+      "description": "Infosys Springboard, 2024",
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      "link": "https://drive.google.com/file/d/17OgBc4uaIGhw4NM_ZojQQs7NFUFUMKsE/view?usp=sharing"
+    },
+    {
+      "id": "3",
+      "title": "Python",
+      "description": "Infosys Springboard, 2025",
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+      "link": "https://drive.google.com/file/d/1uZBa4KLmcHCw0Z73RMSGYvLyk-HKRQBq/view?usp=sharing"
+    },
+    {
+      "id": "4",
+      "title": "Introduction to NoSQL",
+      "description": "Infosys Springboard, 2025",
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+      "link": "https://drive.google.com/file/d/18vurL4mLRDbHdjKYEMWe4nSxD9wQvMo1/view?usp=sharing"
+    },
+    {
+      "id": "5",
+      "title": "Cybersecurity Analyst",
+      "description": "TATA Forage, 2024",
+      "src": "./img/tata.svg",
+      "link": "https://drive.google.com/file/d/1QeXaXQH2EokKS0MhuHj3dHghjhzJZdSV/view?usp=sharing"
+    },
+    {
+      "id": "6",
+      "title": "Introduction to LINUX",
+      "description": "IIT Bombay Spoken Tutorial, 2024",
+      "src": "./img/kali.svg",
+      "link": "https://drive.google.com/file/d/1Nz-oNXD9e7z6i5xxNIgokLI6BVaxNiwx/view?usp=sharing"
+    },
+    {
+      "id": "7",
+      "title": "PHP and MySQL Training",
+      "description": "IIT Bombay Spoken Tutorial, 2023",
+      "src": "https://cdn.jsdelivr.net/npm/simple-icons@15.3.0/icons/mysql.svg",
+      "link": "https://drive.google.com/file/d/1RRkRLiNwJMuKj_nZyuRP6TS5cZT01_dk/view?usp=sharing"
+    },
+    {
+      "id": "8",
+      "title": "Solutions Architecture",
+      "description": "AWS, 2025",
+      "src": "./img/aws.svg",
+      "link": "https://drive.google.com/file/d/1RkND35fnV7YVKRm0qkrJgoRym6TLPe1G/view?usp=sharing"
+    },
+    {
+      "id": "9",
+      "title": "Software Engineering",
+      "description": "Electronic Arts, 2025",
+      "src": "./img/ea.svg",
+      "link": "https://drive.google.com/file/d/11KsWEkpgF2PCrpom4nQJ82ovOnBSWW4C/view?usp=sharing"
+    },
+    {
+      "id": "10",
+      "title": "Data Visualisation",
+      "description": "TATA Forage, 2024",
+      "src": "./img/tata.svg",
+      "link": "https://drive.google.com/file/d/1dHdJYAK0e_vs8RYyx7P-Hex6KbN7zRzh/view?usp=sharing"
+    },
+    {
+      "id": "11",
+      "title": "Agile Scrum in Practice",
+      "description": "Infosys Springboard, 2025",
+      "src": "./img/infi.svg",
+      "link": "https://drive.google.com/file/d/1bT-2C3QoYqcz-hWc2lxh_gTkcVCI389f/view?usp=sharing"
+    },
+    {
+      "id": "12",
+      "title": "Data Analytics",
+      "description": "Deloitte Australia, 2025",
+      "src": "./img/d..svg",
+      "link": "https://drive.google.com/file/d/1Azl8oHw2bnUE0lJyvH6DuepgA4jNCksI/view?usp=sharing"
+    }
+  ],
+  "skills": [
+    {
+      "id": "1",
+      "src": "./img/mern.svg",
+      "title": "Full-Stack Development",
+      "description": "End-to-end web application development from database to front-end deployment."
+    },
+    {
+      "id": "2",
+      "title": "Artificial Intelligence",
+      "src": "./img/openai.svg",
+      "description": "Integrate AI capabilities into applications such as image generation and chat automation using modern APIs."
+    },
+    {
+      "id": "3",
+      "src": "./img/tf.svg",
+      "title": "Machine Learning",
+      "description": "Creating intelligent features using Python and ML models for data-driven applications."
+    },
+    {
+      "id": "4",
+      "src": "./img/aws.svg",
+      "title": "Cloud & DevOps",
+      "description": "Hosting and deploying apps with Vercel, GitHub, and managing environments via Netlify or AWS."
+    }
+  ],
+  "portfolio": [
+    {
+  "id": "1",
+  "src": "./img/rad.png",
+  "title": "Result Analytics Dashboard",
+  "description": "A web app that visualizes student performance data and predicts academic outcomes using real-time charts and machine learning.",
+  "link": "View On Github",
+  "url": "https://github.com/itsgauresh/Result-Analytics-Dashboard.git",
+  "techstack": [
+    {
+      "name": "React",
+      "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+    },
+    {
+      "name": "Express",
+      "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+    },
+    {
+      "name": "MongoDB",
+      "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+    }
+  ]
+},
+
+    {
+  "id": "2",
+  "src": "./img/wp.jpg",
+  "title": "Weather App",
+  "description": "A responsive web app built with HTML, CSS, and JavaScript that shows real-time weather data for any city using the OpenWeatherMap API.",
+  "link": "View On Github",
+  "url": "https://github.com/itsgauresh/weatherapp.git",
+  "techstack": [
+    {
+      "name": "HTML",
+      "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+    },
+    {
+      "name": "CSS",
+      "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+    },
+    {
+      "name": "JavaScript",
+      "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+    }
+  ]
+},
+    {
+  "id": "3",
+  "src": "./img/ai.jpg",
+  "title": "AI based image generator",
+  "description": "Built a full-stack AI image generator using React and OpenAI's DALL·E API to create images from text prompts.",
+  "link": "View On Github",
+  "url": "https://github.com/itsgauresh/AI-based-image-generator.git",
+  "techstack": [
+    {
+      "name": "React",
+      "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+    },
+    {
+      "name": "Python",
+      "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+    },
+
+    {
+      "name": "ChatGPT",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg"
+    }
+  ]
+}
+
+  ],
+  "achievements": [
+  {
+    "title": "2nd Prize – Virtuosic Hackathon",
+    "organization": "SSPM COE",
+    "src": "https://gauresh.sirv.com/webCDN/147.jpg",
+    "description": "Awarded 2nd place for Result Analytics Dashboard in Virtuosic Hackathon. Recognized for innovation in educational analytics during 2024 hackathon."
+  },
+  {
+    "title": "Research Paper – IEEE ICSSAS 2025",
+    "organization": "IEEE ICSSAS",
+    "src": "https://gauresh.sirv.com/webCDN/146.jpg",
+    "description": "Published research on Result Analytics Dashboard Using Machine Learning at International Conference on Self Sustainable and Artificial Intelligence.",
+    "back": "Paper accepted and published in IEEE Xplore, presented in Pune."
+  }
+]
+
+}
