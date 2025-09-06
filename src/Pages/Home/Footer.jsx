@@ -59,6 +59,19 @@ function Footer() {
                 smooth={true}
                 offset={-70}
                 duration={500}
+                to="experience"
+                className="text-md"
+              >
+                My Experience
+              </Link>
+            </li>
+            <li>
+              <Link
+                activeClass="navbar--active-content"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
                 to="AboutMe"
                 className="text-md"
               >
@@ -106,6 +119,12 @@ function Footer() {
             </li>
           </ul>
         </div>
+        
+      </div>
+      <hr className="divider" />
+      <div className="footer--content--container">
+        <p className="footer--content">BUILD With LOVE ❤️</p>
+        <div className="footer--social--icon"></div>
         <div className="footer--social--icon">
           <ul>
             <li>
@@ -198,11 +217,6 @@ function Footer() {
             </li>
           </ul>
         </div>
-      </div>
-      <hr className="divider" />
-      <div className="footer--content--container">
-        <p className="footer--content">BUILD With LOVE ❤️</p>
-        <div className="footer--social--icon"></div>
       </div>
     </footer>
   );

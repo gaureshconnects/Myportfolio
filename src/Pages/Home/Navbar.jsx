@@ -76,6 +76,20 @@ function Navbar() {
           <li>
             <Link
               onClick={closeMenu}
+              to="experience"
+              smooth={true}
+              offset={-70}
+              duration={500}
+              className="navbar--content"
+              activeClass="navbar--active-content"
+              spy={true}
+            >
+              My Experience
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={closeMenu}
               to="AboutMe"
               smooth={true}
               offset={-70}

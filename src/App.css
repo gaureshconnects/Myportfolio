@@ -723,13 +723,139 @@ h2 {
   }
 }
 
+/*Experience*/
+/* Section Styling */
+.experience-section {
+  padding: 50px 85px;
+  background: #f8f9fc; /* light background */
+  
+}
+
+.experience-title {
+  font-size: 54px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #222;
+  padding-top: 50px;
+}
+
+/* Card Styling */
+.experience-card {
+  width: 1260px;
+  padding: 40px 45px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  
+}
+
+.experience-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+  background: #fdfdfd;
+}
+
+/* Header Layout */
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+/* Left Section */
+.experience-left {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  text-align: left;
+}
+
+/* Logo */
+.experience-logo {
+  width: 80px;
+  height: 80px;
+  padding-right: 20px;
+  object-fit: contain;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+  
+}
+
+.experience-logo:hover {
+  transform: scale(1.15);
+}
+
+/* Role & Company */
+.experience-role {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0;
+  color: #0073e6; /* highlight */
+}
+
+.experience-company {
+  font-size: 1rem;
+  margin: 5px 0;
+  color: #444;
+}
+
+.experience-skills {
+  font-size: 0.95rem;
+  margin-top: 8px;
+  color: #555;
+}
+
+/* Right Section (date) */
+.experience-right {
+  min-width: 150px;
+  text-align: right;
+}
+
+.experience-date {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #666;
+}
+
+/* Description (if enabled later) */
+.experience-description {
+  margin-top: 12px;
+  padding-left: 20px;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #444;
+}
+
+.experience-description li {
+  margin-bottom: 6px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .experience-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .experience-right {
+    text-align: left;
+    margin-top: 10px;
+  }
+}
+
+
+
+
 /* About Us */
 .about--section {
-  padding: 133.3px 85.3px;
+  padding: 60px 85.3px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  gap: 114.6px;
+  gap: 1px;
   position: relative;
    max-width: 100%;       /* ✅ prevents stretching */
   overflow-x: hidden;    /* ✅ prevents horizontal overflow */
@@ -737,8 +863,6 @@ h2 {
 
 .about--section--img {
   display: flex;
-  justify-content: center;
-  align-items: center;
   transition: transform 0.3s ease;
   opacity: 0;
   transform: translateY(50px);
