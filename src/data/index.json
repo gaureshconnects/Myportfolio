@@ -193,7 +193,7 @@
         {
           "name": "Live Website",
           "logo": "https://cdn-icons-png.flaticon.com/512/3524/3524659.png",
-          "link": "https://andajofweather.netlify.app/",
+          "link": "/",
           "subtitle": "Under Pipeline"
         }
       ]
