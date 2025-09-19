@@ -19,7 +19,7 @@ export default function MyPortfolio() {
         </div>
         <div>
           <a
-            href="https://github.com/itsgauresh"
+            href="https://github.com/gaureshconnects"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-github"
@@ -53,21 +53,39 @@ export default function MyPortfolio() {
               <div>
                 <h3 className="portfolio--section--title">{item.title}</h3>
                 <p className="text-md">{item.description}</p>
-                
+
                 {/* ✅ Tech Stack Logos */}
-                {item.techstack && (
-                  <div className="techstack-logos">
-                    {item.techstack.map((tech, techIndex) => (
-                      <img
-                        key={techIndex}
-                        src={tech.logo}
-                        alt={tech.name}
-                        title={tech.name}
-                        className="tech-logo"
-                      />
-                    ))}
-                  </div>
-                )}
+{item.techstack && (
+  <div className="techstack-logos">
+    {item.techstack.map((tech, techIndex) =>
+      tech.link ? (
+        <a
+          key={techIndex}
+          href={tech.link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="tech-item live-website"
+          title={tech.name}
+        >
+          <img src={tech.logo} alt={tech.name} className="tech-logo" />
+          {tech.subtitle && (
+            <p className="tech-subtitle">{tech.subtitle}</p>
+          )}
+        </a>
+      ) : (
+        <img
+          key={techIndex}
+          src={tech.logo}
+          alt={tech.name}
+          title={tech.name}
+          className="tech-logo"
+        />
+      )
+    )}
+  </div>
+)}
+
+
               </div>
 
               <a
