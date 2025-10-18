@@ -9,7 +9,7 @@ export default function ContactMe() {
 
     emailjs
       .sendForm(
-        "service_1uv3aua",     // e.g., service_gmail
+        "service_rbawaim",     // e.g., service_gmail
         "template_8gsr8z5",    // e.g., template_xyz
         form.current,
         "DlT1ex2WuWBJNDTsr"      // e.g., xzyAbc123456
