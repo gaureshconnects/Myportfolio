@@ -427,6 +427,7 @@ h2 {
 
 .hero--section--img {
   display: flex;
+  
   justify-content: right;
   filter: brightness(1.05) saturate(1.1);
   /* Optional visual boost */
@@ -462,6 +463,55 @@ h2 {
 /* Hero Section Style Ends */
 
 /* Certifications*/
+
+/* Certificate Thumbnail */
+.certificate-thumb {
+  width: 380px;
+  margin-top: 35px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+}
+
+.certificate-thumb:hover {
+  transform: scale(1.05);
+}
+
+/* Modal Overlay */
+.certificate-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.75);
+   backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px); /* Safari support */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+/* Modal Content */
+.certificate-modal-content {
+  margin-bottom: 120px;
+  max-width: 55%;
+  max-height: 55%;
+}
+
+.certificate-modal-content img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Close Button */
+
+
+
 .certifications--section {
   padding: 4rem 2rem;
   text-align: center;
