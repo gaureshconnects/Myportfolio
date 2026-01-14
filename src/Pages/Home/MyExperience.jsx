@@ -21,7 +21,7 @@ export default function MyExperience() {
       company: "Infosys Springboard · Internship",
       duration: "Sep 2025 – Dec 2025 | Hybrid",
       skills: ["React.js", "PostgreSQL", "Python FastAPI", "Git", "SCSS"],
-      certificate: "../../../public/infycert.jpg",
+      certificate: "./img/infycert.jpg",
       descriptions: [
         "Successfully completed an industry-oriented internship under the Infosys Springboard program",
         "Gained hands-on experience in software development and problem-solving",

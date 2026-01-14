@@ -63,17 +63,17 @@ export default function HeroSection() {
               alt="Gmail"
               width="30"
               height="30"
-              style="cursor: pointer;"
             />
           </a>
         </div>
       </div>
 
       <div className="hero--section--img">
-        <div className="hero--img--wrapper">
-          <img src="./img/gg.jpg" alt="Hero Section" />
-        </div>
-      </div>
+  <div className="hero--img--wrapper">
+    <img src="./img/gg.jpg" alt="Hero Section" />
+  </div>
+</div>
+
     </section>
   );
 }
