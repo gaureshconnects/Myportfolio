@@ -25,7 +25,7 @@ export default function HeroSection() {
           }}
         >
           <a
-            href="https://drive.google.com/file/d/1EnLk9DX_qxV9wGxKBNeHRN6rWZP1EHDJ/view?usp=sharing"
+            href="https://drive.google.com/file/d/17qrRLgXz_yn9M-XD_Mcb9v30Zpm3HSuU/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-outline-primary"
