@@ -25,7 +25,7 @@ export default function HeroSection() {
           }}
         >
           <a
-            href="https://drive.google.com/file/d/17qrRLgXz_yn9M-XD_Mcb9v30Zpm3HSuU/view?usp=sharing"
+            onClick={() => window.open("/img/resumegovekargauresh.pdf", "_blank")}
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-outline-primary"
