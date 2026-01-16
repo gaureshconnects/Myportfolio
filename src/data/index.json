@@ -197,6 +197,42 @@
           "subtitle": "Under Pipeline"
         }
       ]
+    },
+    {
+      "id": "4",
+      "src": "./img/devops.png",
+      "title": "DevOps Project",
+      "description": "Containerized the WiseCow application using Docker to ensure consistent and portable deployments.",
+      "link": "View On Github",
+      "url": "https://github.com/gaureshconnects/wisecow.git",
+      "techstack": [
+        {
+          "name": "Docker",
+          "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+        },
+        {
+          "name": "Kubernetes",
+          "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg"
+        },
+
+        {
+          "name": "git",
+          "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+        },
+        {
+          "name": "gitlab",
+          "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg"
+        },
+        {
+          "name": "CI/CD",
+          "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg"
+        },
+        {
+          "name": "Github actions",
+          "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+        }
+
+      ]
     }
   ],
   "achievements": [

@@ -1,6 +1,3 @@
-
-
-
 /* Global CSS */
 /* smooth scrolling when jumping to section */
 html {
@@ -37,8 +34,8 @@ p {
 }
 
 .certbtn {
-  font-size: 0.75rem;         /* Smaller text */
-  padding: 0.3rem 0.75rem;    /* Smaller button */
+  font-size: 0.75rem; /* Smaller text */
+  padding: 0.3rem 0.75rem; /* Smaller button */
   line-height: 1.2;
   border-radius: 4px;
   background-color: #3f51b5;
@@ -49,7 +46,6 @@ p {
   display: inline-block;
   transition: background-color 0.3s ease;
 }
-
 
 .btn {
   font-family: "Roboto";
@@ -185,10 +181,12 @@ h2 {
 
 /* Portfolio, Testimonial & Contact Me */
 .sub--title {
+  margin-top: -50px;
   color: var(--heading-color);
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
+  margin-bottom: -10px;
 }
 
 /* Section Titles Ends */
@@ -382,7 +380,6 @@ h2 {
   margin: 16px 0;
 }
 
-
 .hero--section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -406,7 +403,7 @@ h2 {
   gap: 21.333px;
 }
 
-.hero--section--content--box>button {
+.hero--section--content--box > button {
   margin-top: 21.333px;
 }
 
@@ -460,7 +457,6 @@ h2 {
 .hero--img--wrapper:hover img {
   transform: scale(1.1);
   /* Zoom-in on hover */
-
 }
 
 /* Hero Section Style Ends */
@@ -474,7 +470,7 @@ h2 {
   margin-bottom: 10px;
   cursor: pointer;
   border-radius: 6px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
   transition: transform 0.3s ease;
 }
 
@@ -490,7 +486,7 @@ h2 {
   width: 100%;
   height: 100%;
   background: rgba(255, 255, 255, 0);
-   backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px); /* Safari support */
   display: flex;
   align-items: center;
@@ -512,8 +508,6 @@ h2 {
 }
 
 /* Close Button */
-
-
 
 .certifications--section {
   padding: 4rem 2rem;
@@ -585,7 +579,6 @@ h2 {
   align-items: flex-start;
 }
 
-
 .certifications--section--title {
   font-size: 1.2rem;
   font-weight: 600;
@@ -603,7 +596,6 @@ h2 {
 }
 
 /* Button or Link */
-
 
 .certifications--section--link:hover,
 .btn.btn-primary:hover {
@@ -628,8 +620,6 @@ h2 {
     text-align: center;
   }
 }
-
-
 
 /* Skills Section Style */
 .skills--section {
@@ -672,7 +662,8 @@ h2 {
   max-width: 280px;
   width: 100%;
   cursor: pointer;
-  transition: transform 0.35s ease, box-shadow 0.35s ease, border-bottom 0.35s ease;
+  transition: transform 0.35s ease, box-shadow 0.35s ease,
+    border-bottom 0.35s ease;
 }
 
 .skills--section--card:hover {
@@ -694,7 +685,7 @@ h2 {
 }
 
 .skills--section--card:hover .skills--section--img {
-  transform: scale(1.20);
+  transform: scale(1.2);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
 }
 
@@ -781,7 +772,6 @@ h2 {
 .experience-section {
   padding: 50px 85px;
   background: #f8f9fc; /* light background */
-  
 }
 
 .experience-title {
@@ -801,7 +791,6 @@ h2 {
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
   cursor: pointer;
-  
 }
 
 .experience-card:hover {
@@ -834,7 +823,6 @@ h2 {
   object-fit: contain;
   border-radius: 8px;
   transition: transform 0.3s ease-in-out;
-  
 }
 
 .experience-logo:hover {
@@ -899,9 +887,6 @@ h2 {
   }
 }
 
-
-
-
 /* About Us */
 .about--section {
   padding: 60px 85.3px;
@@ -910,8 +895,8 @@ h2 {
   align-items: center;
   gap: 1px;
   position: relative;
-   max-width: 100%;       /* ✅ prevents stretching */
-  overflow-x: hidden;    /* ✅ prevents horizontal overflow */
+  max-width: 100%; /* ✅ prevents stretching */
+  overflow-x: hidden; /* ✅ prevents horizontal overflow */
 }
 
 .about--section--img {
@@ -989,7 +974,6 @@ h2 {
     grid-template-columns: 1fr;
     padding: 80px 40px;
     gap: 60px;
-    
   }
 
   .about--img--wrapper {
@@ -1008,7 +992,6 @@ h2 {
   }
 }
 
-
 /* About Us Ends */
 
 /* My Portfolio Starts */
@@ -1016,36 +999,37 @@ h2 {
 .techstack-logos {
   display: flex;
   align-items: center;
-  gap: 12px;      /* slightly smaller gap */
+  gap: 12px; /* slightly smaller gap */
   flex-wrap: wrap;
 }
 
 .tech-item.live-website {
-  margin-left: auto;          
+  margin-left: auto;
   display: flex;
   align-items: center;
-  gap: 6px;                   /* less gap between icon & text */
-  padding: 4px 8px;           /* smaller padding */
-  border: 2px solid #ff0000;  
-  border-radius: 8px;         
-  background: #fafafa;        
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+  gap: 6px; /* less gap between icon & text */
+  padding: 4px 8px; /* smaller padding */
+  border: 2px solid #ff000000;
+  border-radius: 8px;
+  background: #fafafa00;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
   text-decoration: none;
-  transform: scale(0.9);      /* shrink overall size */
+  transform: scale(0.9); /* shrink overall size */
 }
 
 .tech-item.live-website:hover {
-  transform: scale(0.95);     /* subtle shrink on hover */
+  transform: scale(0.95); /* subtle shrink on hover */
 }
 
 .tech-item.live-website img.tech-logo {
-  width: 20px;   /* smaller icon */
+  width: 20px; /* smaller icon */
   height: 20px;
 }
 
 .tech-subtitle {
-  font-size: 0.75rem;         /* smaller font */
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 0.75rem; /* smaller font */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 600;
   color: #000000;
   animation: blink 1s infinite;
@@ -1053,116 +1037,197 @@ h2 {
 }
 
 @keyframes blink {
-  0%, 49% { opacity: 1; }
-  50%, 100% { opacity: 0; }
+  0%,
+  49% {
+    opacity: 1;
+  }
+  50%,
+  100% {
+    opacity: 0;
+  }
 }
 
-
-
-
+/* ===============================
+   PORTFOLIO SECTION
+================================ */
 
 .portfolio--section {
-  display: flex;
-  padding: 112px 85px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 80px;
-  padding-top: 120px;
+  padding: 50px 85px;
 }
 
+/* Header + GitHub Button */
 .portfolio--container-box {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
-.portfolio--container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 21.3px;
-}
+/* ===============================
+   PORTFOLIO GRID (MAIN FIX)
+================================ */
 
 .portfolio--section--container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 42.6px;
-  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
 }
 
-.portfolio--section--img {
-  border-radius: 10px;
-  width: 100%;
-  height: 250px;
-}
-
-.portfolio--section--img>img {
-  width: 100%;
-  border-radius: 10px;
-  height: 280px;
-}
+/* ===============================
+   PORTFOLIO CARD
+================================ */
 
 .portfolio--section--card {
+  background: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  gap: 32px;
-  flex: 1 0 0;
-  background: #fff;
-  box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
-  cursor: pointer;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
+  height: 100%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.portfolio--section--card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
+}
+
+/* ===============================
+   IMAGE FIX (SAME HEIGHT)
+================================ */
+
+.portfolio--section--img {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.portfolio--section--img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ===============================
+   CARD CONTENT
+================================ */
 
 .portfolio--section--card--content {
+  padding: 1.5rem;
   display: flex;
-  padding: 32px;
   flex-direction: column;
-  align-items: flex-start;
-  gap: 32px;
-  align-self: stretch;
-  align-items: center;
+  flex-grow: 1;
 }
 
+/* Title & Description */
 .portfolio--section--title {
-  color: var(--heading-color);
-}
-
-.portfolio--link {
-  text-decoration: none;
-  display: flex;
-  gap: 16px;
-  border-bottom: 1.33px solid var(--primary);
-  padding-bottom: 10.6px;
+  font-size: 1.2rem;
   font-weight: 600;
+  margin-bottom: 1.5rem;
 }
 
-.portfolio--section--card:hover path {
-  stroke: #006b6a;
+.text-md {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #555;
+  min-height: 90px;
 }
+
+/* ===============================
+   TECH STACK LOGOS
+================================ */
 
 .techstack-logos {
   display: flex;
-  gap: 0.5rem;
-  margin-top: 0.5rem;
   flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 2.5rem;
 }
 
 .tech-logo {
-  width: 24px;
-  height: 24px;
+  width: 32px;
+  height: 32px;
   object-fit: contain;
-  opacity: 0.9;
-  transition: transform 0.2s ease;
 }
 
-.tech-logo:hover {
-  transform: scale(1.1);
+/* ===============================
+   PROJECT LINK (BOTTOM ALIGNED)
+================================ */
+
+.portfolio--link {
+  margin-top: 2.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--darkblue);
+  text-decoration: none;
+
+  position: relative;
+  transition: color 0.3s ease, transform 0.3s ease;
 }
 
+/* Animated underline */
+.portfolio--link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0%;
+  height: 2px;
+  background: #2196f3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f44336,
+    #2196f3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f44336,
+    #2196f3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  transition: width 0.3s ease;
+}
+
+.portfolio--link:hover {
+  color: var(--heading-color);
+  transform: translateX(4px);
+}
+
+.portfolio--link:hover::after {
+  width: 100%;
+}
+
+/* Icon animation */
+.portfolio--link svg {
+  transition: transform 0.3s ease;
+}
+
+.portfolio--link:hover svg {
+  transform: translate(3px, -3px);
+}
+
+/* ===============================
+   RESPONSIVE FIX
+================================ */
+
+@media (max-width: 768px) {
+  .portfolio--container-box {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .portfolio--section--img {
+    height: 180px;
+  }
+}
 
 /* Portfolio Ends */
 
@@ -1174,7 +1239,7 @@ h2 {
   line-height: 1.5;
 }
 .achievements--section {
- display: flex;
+  display: flex;
   padding: 112px 85px;
   flex-direction: column;
   align-items: flex-start;
@@ -1212,7 +1277,6 @@ h2 {
   position: relative;
 }
 
-
 .achievements--section--img img {
   width: 100%;
   height: 100%;
@@ -1232,7 +1296,6 @@ h2 {
   }
 }
 
-
 .achievements--section--card {
   display: flex;
   flex-direction: column;
@@ -1245,12 +1308,12 @@ h2 {
 
   /* ✅ Increased Size */
   width: 100%;
-  max-width: 6500px;  /* ⬅️ Increased from 350px */
+  max-width: 6500px; /* ⬅️ Increased from 350px */
   min-height: 400px; /* ⬅️ Increased card height */
 }
 
 .achievements--section--card--content {
- padding: 24px;
+  padding: 24px;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -1286,63 +1349,131 @@ h2 {
   box-shadow: 0 0 40px rgba(255, 255, 255, 0.2);
   transition: transform 0.3s ease;
 }
-
-/*contact section starts*/
+/* ===============================
+   CONTACT SECTION
+================================ */
 
 .contact--section {
-  display: flex;
-  padding: 150px 85px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  padding: 2rem 2rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+/* Header */
+.contact--header {
   text-align: center;
-  gap: 10px;
-  padding-top: 80px;
+  margin-bottom: 2rem;
 }
 
-.contact--form--container {
+.contact--header p {
+  max-width: 520px;
+  margin: 0.8rem auto;
+  color: #666;
+}
+
+/* Social Icons */
+.contact--socials {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  margin-top: -2rem;
+}
+
+.contact--socials img {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.3s ease;
+}
+
+.contact--socials img:hover {
+  transform: translateY(-4px);
+}
+
+/* ===============================
+   FORM
+================================ */
+
+.contact--form {
+  background: #00000009;
+  padding: 2.5rem;
+  border-radius: 18px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
+}
+
+/* Grid */
+.contact--grid {
   display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: repeat(5, auto);
-  width: 40%;
-  row-gap: 2px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
 }
 
-.container {
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  column-gap: 32px;
-  row-gap: 2px;
-}
-
+/* Label */
 .contact--label {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  gap: 0px;
-  flex: 1 0 0;
-  width: 100%;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #444;
 }
 
-.contact--input {
-  display: flex;
-  font-family: "Roboto";
-  padding: 16px;
-  align-items: center;
-  align-self: stretch;
-  border-radius: 8px;
-  border: 1.333px solid var(--primary);
-  background: var(--bg-shade);
+/* Inputs */
+.contact--label input,
+.contact--label textarea {
+  padding: 0.75rem 0.9rem;
+  border-radius: 10px;
+  border: 1.5px solid #d6dcff;
+  background: #f9fbff2b;
+  font-size: 0.9rem;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
 }
+
+.contact--label input:focus,
+.contact--label textarea:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(91, 140, 255, 0.15);
+}
+
+/* Full width textarea */
+.full-width {
+  margin-top: 1.5rem;
+}
+
+/* Button */
+.contact--btn {
+  margin-top: 2rem;
+  width: 100%;
+  padding: 0.85rem;
+  font-weight: 600;
+  border-radius: 12px;
+}
+
+/* ===============================
+   RESPONSIVE
+================================ */
+
+@media (max-width: 768px) {
+  .contact--grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact--form {
+    padding: 2rem 1.5rem;
+  }
+}
+
 
 select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   /* Some browsers will not display the caret when using calc, so we put the fallback first */
-  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.5303 21.2052C16.2374 21.4981 15.7626 21.4981 15.4697 21.2052L7.82318 13.5587C7.53029 13.2658 7.53029 12.791 7.82318 12.4981L8.17674 12.1445C8.46963 11.8516 8.9445 11.8516 9.2374 12.1445L16 18.9071L22.7626 12.1445C23.0555 11.8516 23.5303 11.8516 23.8232 12.1445L24.1768 12.4981C24.4697 12.791 24.4697 13.2658 24.1768 13.5587L16.5303 21.2052Z" fill="%23033333"/></svg>') white no-repeat 98.5% !important;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.5303 21.2052C16.2374 21.4981 15.7626 21.4981 15.4697 21.2052L7.82318 13.5587C7.53029 13.2658 7.53029 12.791 7.82318 12.4981L8.17674 12.1445C8.46963 11.8516 8.9445 11.8516 9.2374 12.1445L16 18.9071L22.7626 12.1445C23.0555 11.8516 23.5303 11.8516 23.8232 12.1445L24.1768 12.4981C24.4697 12.791 24.4697 13.2658 24.1768 13.5587L16.5303 21.2052Z" fill="%23033333"/></svg>')
+    white no-repeat 98.5% !important;
   /* !important used for overriding all other customisations */
-  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.5303 21.2052C16.2374 21.4981 15.7626 21.4981 15.4697 21.2052L7.82318 13.5587C7.53029 13.2658 7.53029 12.791 7.82318 12.4981L8.17674 12.1445C8.46963 11.8516 8.9445 11.8516 9.2374 12.1445L16 18.9071L22.7626 12.1445C23.0555 11.8516 23.5303 11.8516 23.8232 12.1445L24.1768 12.4981C24.4697 12.791 24.4697 13.2658 24.1768 13.5587L16.5303 21.2052Z" fill="%23033333"/></svg>') white no-repeat calc(100% - 20px);
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.5303 21.2052C16.2374 21.4981 15.7626 21.4981 15.4697 21.2052L7.82318 13.5587C7.53029 13.2658 7.53029 12.791 7.82318 12.4981L8.17674 12.1445C8.46963 11.8516 8.9445 11.8516 9.2374 12.1445L16 18.9071L22.7626 12.1445C23.0555 11.8516 23.5303 11.8516 23.8232 12.1445L24.1768 12.4981C24.4697 12.791 24.4697 13.2658 24.1768 13.5587L16.5303 21.2052Z" fill="%23033333"/></svg>')
+    white no-repeat calc(100% - 20px);
   /* Better placement regardless of input width */
 }
 
@@ -1373,14 +1504,22 @@ input[type="checkbox"] {
 /* Footer Start */
 /* Footer Starts */
 .footer--container {
+  position: relative;
   display: flex;
-  padding: 106.667px 85.333px;
+  padding: 106px 85.333px;
   flex-direction: column;
-  align-items: flex-start;
-  background: var(--bg-shade);
   align-items: center;
   align-self: stretch;
+
+  background: linear-gradient(
+    to bottom,
+    #ffffff 0%,
+    #eef2f3 30%,
+    #d9e1e8 65%,
+    #c3ced9 100%
+  );
 }
+
 
 .footer--link--container {
   display: flex;
@@ -1389,19 +1528,45 @@ input[type="checkbox"] {
   align-self: stretch;
 }
 
-.footer--items>ul {
+.footer--items > ul {
   list-style: none;
   display: flex;
   align-items: flex-start;
   gap: 42.667px;
   text-decoration: none;
+
 }
 
-.footer--items ul>li>a {
+.footer--items ul > li > a {
+  position: relative;
   text-decoration: none;
+  color: var(--black);
+  font-weight: 500;
+  transition: color 0.3s ease;
 }
 
-.footer--social--icon>ul {
+/* Animated underline */
+.footer--items ul > li > a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0%;
+  height: 2px;
+  background: var(--primary);
+  transition: width 0.3s ease;
+}
+
+.footer--items ul > li > a:hover {
+  color: var(--primary);
+}
+
+.footer--items ul > li > a:hover::after {
+  width: 100%;
+}
+
+
+.footer--social--icon > ul {
   list-style: none;
   display: flex;
   justify-content: flex-end;
@@ -1409,6 +1574,7 @@ input[type="checkbox"] {
   gap: 16px;
   flex-shrink: 0;
   text-decoration: none;
+  margin-top: 200px;
 }
 
 .divider {
@@ -1423,13 +1589,16 @@ input[type="checkbox"] {
   justify-content: space-between;
   align-items: center;
   align-self: stretch;
+  margin-top: -350px;
+  margin-bottom: -100px;
 }
 
 .footer--content {
   color: var(--black);
   font-size: 18.667px;
   font-weight: 400;
-  line-height: 28px;
+  line-height: 0px;
+  margin-top: 300px;
 }
 
 .footer--items li,
@@ -1476,20 +1645,24 @@ input[type="checkbox"] {
   color: #5e3bee;
   opacity: 0.4;
   font-size: 1.2rem;
-  font-family:monospace;
+  font-family: monospace;
   pointer-events: none;
 
   /* Spotlight effect */
-  -webkit-mask-image: radial-gradient(circle 1.5rem at var(--x, -9999px) var(--y, -9999px),
-      rgba(255, 255, 255, 1) 0%,
-      rgba(255, 255, 255, 0.6) 60%,
-      rgba(255, 255, 255, 0.2) 85%,
-      transparent 100%);
-  mask-image: radial-gradient(circle 120px at var(--x, -9999px) var(--y, -9999px),
-      rgba(255, 255, 255, 1) 0%,
-      rgba(255, 255, 255, 0.6) 60%,
-      rgba(255, 243, 243, 0.2) 85%,
-      transparent 100%);
+  -webkit-mask-image: radial-gradient(
+    circle 1.5rem at var(--x, -9999px) var(--y, -9999px),
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0.6) 60%,
+    rgba(255, 255, 255, 0.2) 85%,
+    transparent 100%
+  );
+  mask-image: radial-gradient(
+    circle 120px at var(--x, -9999px) var(--y, -9999px),
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0.6) 60%,
+    rgba(255, 243, 243, 0.2) 85%,
+    transparent 100%
+  );
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
   -webkit-mask-composite: destination-in;
@@ -1752,6 +1925,5 @@ input[type="checkbox"] {
     text-align: center;
   }
 }
-
 
 /* ================== End Responsive ================== */

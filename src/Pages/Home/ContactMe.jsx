@@ -9,18 +9,18 @@ export default function ContactMe() {
 
     emailjs
       .sendForm(
-        "service_rbawaim",     // e.g., service_gmail
-        "template_8gsr8z5",    // e.g., template_xyz
+        "service_rbawaim",
+        "template_8gsr8z5",
         form.current,
-        "DlT1ex2WuWBJNDTsr"      // e.g., xzyAbc123456
+        "DlT1ex2WuWBJNDTsr"
       )
       .then(
-        (result) => {
-          alert("Message sent successfully!");
+        () => {
+          alert("Thank you! Your message has been sent.");
           form.current.reset();
         },
         (error) => {
-          alert("Failed to send message. Please try again.");
+          alert("Something went wrong. Please try again.");
           console.error(error);
         }
       );
@@ -28,52 +28,58 @@ export default function ContactMe() {
 
   return (
     <section id="Contact" className="contact--section">
-      <div>
-        <h1 className="sub--title">Get In Touch With</h1>
+      {/* Header */}
+      <div className="contact--header">
+        <h1 className="sub--title">Get In Touch</h1>
+        <p className="text-md">
+          Feel free to reach out for collaborations or just a friendly hello!
+        </p>
 
-        <div style={{ display: "flex", gap: "20px", margin: "20px 0" }}>
+        <div className="contact--socials">
           <a href="https://linkedin.com/in/connectgauresh" target="_blank" rel="noopener noreferrer">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" width="30" height="30" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" />
           </a>
           <a href="mailto:connectgauresh@gmail.com">
-            <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Gmail" width="30" height="30" />
+            <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Gmail" />
           </a>
           <a href="https://www.instagram.com/connectgauresh" target="_blank" rel="noopener noreferrer">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" width="30" height="30" />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" />
           </a>
         </div>
       </div>
 
-      <h2>Contact Me</h2>
+      {/* Form */}
+      <form ref={form} onSubmit={sendEmail} className="contact--form">
+        <div className="contact--grid">
+          <label className="contact--label">
+            <span>First Name</span>
+            <input type="text" name="first-name" required />
+          </label>
 
-      <form ref={form} onSubmit={sendEmail} className="contact--form--container">
-        <div className="container">
           <label className="contact--label">
-            <span className="text-md">First Name</span>
-            <input type="text" name="first-name" className="contact--input text-md" required />
+            <span>Last Name</span>
+            <input type="text" name="last-name" required />
           </label>
+
           <label className="contact--label">
-            <span className="text-md">Last Name</span>
-            <input type="text" name="last-name" className="contact--input text-md" required />
+            <span>Email</span>
+            <input type="email" name="email" required />
           </label>
+
           <label className="contact--label">
-            <span className="text-md">Email</span>
-            <input type="email" name="email" className="contact--input text-md" required />
-          </label>
-          <label className="contact--label">
-            <span className="text-md">Phone Number</span>
-            <input type="text" name="phone" className="contact--input text-md" />
+            <span>Phone</span>
+            <input type="text" name="phone" />
           </label>
         </div>
 
-        <label className="contact--label">
-          <span className="text-md">Message</span>
-          <textarea name="message" className="contact--input text-md" rows="6" required />
+        <label className="contact--label full-width">
+          <span>Message</span>
+          <textarea name="message" rows="5" required />
         </label>
 
-        <div>
-          <button type="submit" className="btn btn-outline-primary">Submit</button>
-        </div>
+        <button type="submit" className="btn btn-outline-primary contact--btn">
+          Send Message
+        </button>
       </form>
     </section>
   );
