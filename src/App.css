@@ -637,6 +637,7 @@ h2 {
   font-size: 44px;
   font-weight: 700;
   line-height: 77px;
+  text-align: left;
 }
 
 .skills--section--container {
@@ -771,7 +772,6 @@ h2 {
 /* Section Styling */
 .experience-section {
   padding: 50px 85px;
-  background: #f8f9fc; /* light background */
 }
 
 .experience-title {
@@ -780,6 +780,7 @@ h2 {
   margin-bottom: 40px;
   color: #222;
   padding-top: 50px;
+  text-align: left;
 }
 
 /* Card Styling */
