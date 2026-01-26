@@ -70,7 +70,7 @@ export default function HeroSection() {
 
       <div className="hero--section--img">
   <div className="hero--img--wrapper">
-    <img src="./img/gg.jpg" alt="Hero Section" />
+    <img src="./img/gauresh.jpg" alt="Hero Section" />
   </div>
 </div>
 
