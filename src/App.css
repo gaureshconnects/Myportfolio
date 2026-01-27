@@ -461,6 +461,57 @@ h2 {
   /* Zoom-in on hover */
 }
 
+.resume-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0); /* transparent */
+  backdrop-filter: blur(8px);  /* BLUR EFFECT */
+  -webkit-backdrop-filter: blur(8px); /* Safari support */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.resume-modal-content {
+  position: relative;
+  width: 80%;
+  height: 90%;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.resume-modal-content iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* Close button */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  background: #000;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  padding: 6px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  z-index: 10000;
+}
+
+.close-btn:hover {
+  background: #b10000f5;
+}
+
+
+
 /* Hero Section Style Ends */
 
 /* Certifications*/
