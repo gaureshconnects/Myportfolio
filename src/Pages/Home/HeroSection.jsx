@@ -98,7 +98,7 @@ export default function HeroSection() {
             </button>
 
             <iframe
-              src="/img/resumegovekargauresh.pdf"
+              src="/img/gaureshgovekarresume_compressed.pdf"
               title="Resume"
             ></iframe>
           </div>
