@@ -1,0 +1,132 @@
+.techstack--section {
+  padding: 4rem 2rem 2rem; // Top padding increased for separation from navbar
+  color: #0d0d0d;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  padding: 40px 85px;
+}
+
+
+.techstack--title {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #070707;
+  margin: 2rem 0 1rem;
+  border-left: 5px solid #000000;
+  padding-left: 1rem;
+  display: inline-block;
+}
+
+.techstack--slider-wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding: 1rem 0;
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 80px;
+    height: 100%;
+    z-index: 2;
+    pointer-events: none;
+  }
+
+  &::before {
+    left: 0;
+    background: linear-gradient(to right, #ffffff, transparent);
+  }
+
+  &::after {
+    right: 0;
+    background: linear-gradient(to left, #ffffff, transparent);
+  }
+}
+
+.techstack--slider {
+  display: flex;
+  flex-wrap: nowrap;
+  width: max-content;
+  animation: scrollLeft 60s linear infinite;
+  will-change: transform;
+
+  &:hover {
+    animation-play-state: paused;
+  }
+}
+
+.techstack--slider.reverse {
+  animation: scrollRight 60s linear infinite;
+  &:hover {
+    animation-play-state: paused;
+  }
+}
+
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scrollRight {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.techstack--item {
+  flex: 0 0 auto;
+  background-color: #363b3c;
+  border-radius: 9999px;
+  padding: 0.75rem 1.5rem;
+  margin: 0 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+  min-width: 150px;
+  color: #ffffff;
+}
+
+.techstack--item:hover {
+  transform: scale(1.05);
+  background-color: #ffffff;
+  color: #0d0d0d;
+}
+
+.techstack--item img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .techstack--item {
+    min-width: 120px;
+    padding: 0.5rem 1rem;
+    gap: 0.5rem;
+  }
+
+  .techstack--item img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .techstack--title {
+    font-size: 1.5rem;
+  }
+}
